@@ -1,0 +1,261 @@
+
+p {
+  color: red;
+}
+
+
+.my-class {
+  font-weight: bold;
+}
+
+
+
+#my-element {
+  background-color: blue;
+}
+
+
+h1 {
+  color: blue;
+}
+
+
+body {
+  background-color: #f1f1f1;
+  color: #333333;
+}
+
+.container {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+
+/* Selectors */
+h1 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+ul li {
+  color: green;
+}
+
+/* Colors */
+body {
+  background-color: #f1f1f1;
+}
+
+/* Units & Sizes Box Model */
+h1 {
+  font-size: 24px;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* Typography */
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Styling Links */
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+  list-style-type: square;
+}
+
+/* Display */
+h1 {
+  display: inline;
+}
+
+/* Floats */
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Columns Position */
+div {
+  columns: 2;
+}
+
+/* Flexbox */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid Layout */
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+/* Images */
+img {
+  width: 200px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #ccc;
+  }
+}
+
+/* Pseudo */
+h1::before {
+  content: "Title: ";
+}
+
+/* Variables */
+:root {
+  --main-color: blue;
+}
+
+h1 {
+  color: var(--main-color);
+}
+
+/* Functions */
+p {
+  font-size: calc(16px + 2vmin);
+}
+
+/* Animations */
+h1 {
+  animation: colorChange 2s /* Selectors */
+h1 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+ul li {
+  color: green;
+}
+
+/* Colors */
+body {
+  background-color: #f1f1f1;
+}
+
+/* Units & Sizes Box Model */
+h1 {
+  font-size: 24px;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* Typography */
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Styling Links */
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+  list-style-type: square;
+}
+
+/* Display */
+h1 {
+  display: inline;
+}
+
+/* Floats */
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Columns Position */
+div {
+  columns: 2;
+}
+
+/* Flexbox */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid Layout */
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+/* Images */
+img {
+  width: 200px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #ccc;
+  }
+}
+
+/* Pseudo */
+h1::before {
+  content: "Title: ";
+}
+
+/* Variables */
+:root {
+  --main-color: blue;
+}
+
+h1 {
+  color: var(--main-color);
+}
+
+/* Functions */
+p {
+  font-size: calc(16px + 2vmin);
+}
+
+h1 {
+  animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: green; }
+}
